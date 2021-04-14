@@ -52,7 +52,7 @@ if __name__ == "__main__":
             print(num1 // num2)
             
         else:
-            print("Invalid Operation, chose a valid one!")
+            print("Invalid operation, choose a valid one!")
 
         operation = input("Select operation you would like to perform: ")
 
