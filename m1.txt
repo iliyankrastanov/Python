@@ -1,2 +1,0 @@
-git-simple-commit Completed
-m1
