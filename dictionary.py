@@ -6,6 +6,6 @@ if __name__ == "__main__":
 
     dict_c = {5:50, 6:60}
 
-    dict_d = {**dict_a, **dict_b, **dict_c}
+    dict_abc = {**dict_a, **dict_b, **dict_c}
 
-print('Result:', (dict_d))
+print('Result:', (dict_abc))
