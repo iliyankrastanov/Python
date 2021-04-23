@@ -16,15 +16,20 @@ class Point:
         self.__x += dx
         self.__y += dy
 
+    def get_x(self):
+        return self.__x
+
+    def set_x(self, x):
+        self.__x = x
+
 if __name__ == "__main__":
     #2. Deklaraciya na promenliva ot tipa
     # class - tiput (Point) , obekt - predstavitel (p)
     p1 = Point()
     p2 = Point(6, 8)
     
-    p2.label = 100
-    p2.max_y = -400
-    print(f'dot access: {p2.label}, {p2.max_y}')
+    p2.draw()
+    p2.set_x(10)
     p2.draw()
 
     print("--- --- --- ---")
